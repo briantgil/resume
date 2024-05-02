@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
-  </head>
-  <body>
+
     <!--<img src="https://picsum.photos/200" alt="portrait" />-->
-    <img src="./assets/images/IMG_4731.jpg" width="200" height="200" alt="icon" />
+    <!--<img src="./assets/images/IMG_4731.jpg" width="200" height="200" alt="icon" />-->
 
     <h1>Brian T. Gil</h1>
     <hr />
@@ -115,5 +108,4 @@
     <footer>
       <p>Copyright &copy; 2024 Brian T. Gil.</p>
     </footer>
-  </body>
-</html>
+
