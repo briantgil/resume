@@ -11,22 +11,32 @@
     <img src="./assets/images/IMG_4731.jpg" width="200" height="200" alt="icon" />
 
     <h1>Brian T. Gil</h1>
-    <a href="https://github.com/briantgil" target="_blank">GitHub</a> |
-    <a href="https://www.hackerrank.com/profile/gilb1" target="_blank">HackerRank</a> |
-    <a href="https://www.linkedin.com/in/brian-gil-a65660112" target="_blank">LinkedIn</a> |
-    <a href="https://x.com/_BrianTGil" target="_blank">X</a>
+
+    <a href="https://github.com/briantgil" target="_blank">GitHub</a>
+    | <a href="https://www.linkedin.com/in/brian-gil-a65660112" target="_blank">LinkedIn</a>
+    | <a href="https://www.hackerrank.com/profile/gilb1" target="_blank">HackerRank</a>
+    | <a href="https://nowlearning.servicenow.com/lxp?id=nl_public&user=bgil1df339961927" target="_blank">ServiceNow</a>
+
     <hr />
 
     <h2>Summary</h2>
 
     <p>
-      Technology professional since 2010.&nbsp;
+
+      Technology professional since 2011 when trained on TCP/IP and recieved Active Directory on-the-job training for U.S. Army deployment.&nbsp;
+
       Passed certification exams for CompTIA's Network+, A+, and Security+, and maintain continuing education credits for A+ and Sec+.&nbsp;
+      
       Initially, attended Erie Community College for Business Admin, but earned A.S. in General Studies in 2008.&nbsp;
-      Served nearly 10 years on Active Duty in the US Army as logistician from 2006-2015.&nbsp;
+      
+      Served on Active Duty in the US Army as logistician from 2006-2015.&nbsp;
+      
       Later, graduated from Canisius University with B.S. in Computer Science and minor in Management Information Systems in 2018.&nbsp;
-      Software engineer for M&amp;T Bank since 2020.&nbsp;
+      
+      Software engineer for M&amp;T Bank since 2020, primarily focusing on ServiceNow's Service Catalog.&nbsp;
+      
       Currently serving in the US Army Reserves as a systems administrator since 2015.&nbsp;
+
     </p>
 
     <h2>Work experience</h2>
@@ -35,48 +45,42 @@
 
       <li>
         <h3>M&amp;T Bank</h3>
-        <ul>
-          <li>
             <h4>Software Engineer, 2020-Present</h4>
             <ul>
-              <li>Lead ServiceNow Developer</li>
-              <li>.NET Developer</li>
+              <li>As the lead ServiceNow developer, coached and mentored two developers on the ServiceNow Service Catalog</li>
+              <li>As a .NET developer, developed applications that enhanced custom REST API end point for managing Virtual PCs</li>
             </ul>
-          </li>
-          <li>
+
             <h4>Thin Client Specialist, 2019-2020</h4>
             <ul>
-              <li>HP Device Manager Admin</li>
-              <li>HP ThinPro/Linux Thin Client Admin</li>
-              <li>VMWare vSphere Admin</li>
-              <li>MS Windows Admin</li>
+              <li>Managed HP ThinPro/Linux OS and Thin Client devices</li>
+              <li>Used HP Device Manager to remotely manage Thin Client devices</li>
+              <li>Developed Python, BAsh, and Powershell scripts to manage Thin Client devices</li>
+              <li>Used VMWare vSphere and PowerCLI to manage virtual PCs</li>
+              <li>Troubleshoot Citrix ICA connection issues within MS Windows and HP ThinPro environments</li>
             </ul>
-          </li>
-        </ul>
       </li>
 
       <li>
         <h3>U.S. Army Reserves</h3>
-        <ul>
-          <li>
             <h4>IT Specialist, 2015-Present</h4>
             <ul>
+              <li>AD OU Admin</li>
+              <li>ATCTS Admin</li>
+              <li>Resolver</li>
               <li>System Admin</li>
             </ul>
-          </li>
-        </ul>
       </li>
 
         <li>
           <h3>Canisius University, 2018-2019</h3>
+          <h4>Admissions CRM Administrator</h4>
           <ul>
-            <li>
-              <h4>CRM Administrator</h4>
-              <ul>
-                <li>Slate CRM Admin</li>
-                <li>SQL Developer</li>
-              </ul>
-            </li>
+            <li>As the Slate CRM Administrator, developed reports to enhance managment decision-making</li>  
+            <li>Developed SQL query snippets for non-technical users within query-by-example platform</li>
+            <li>Developed automated email messaging to prospective and accepted students throughout the admissions process</li>
+            <li>Collaborated with business users to gather development requirements</li>
+            <li>Trained non-technical users on designing database and implementing queries</li>
           </ul>
         </li>
 
@@ -92,12 +96,22 @@
     <h2>Skills</h2>
 
     <ul>
-      <li>Programming</li>
+      <li>Programming/Scripting Languages
+        <ul>
+          <li><em>Javascript, Python, Powershell, Bash, SQL</em></li>
+        </ul>
+      </li>
+
+      <li>Operating Systems
+        <ul>
+          <li><em>Windows, MacOS, Linux, Cisco IOS</em></li>
+        </ul>
+      </li>
       <li>Information Technology</li>
       <li>Leadership</li>
     </ul>
 
-    <h2>Awards, certifications, or other achievements</h2>
+    <h2>Awards, certifications, and achievements</h2>
 
     <ul>
       <li><a href="https://www.credly.com/badges/1732f690-9bd0-4f71-83d5-63333f84603e/linked_in_profile" target="_blank">CompTIA Security+ CE</a>, 2019</li>
@@ -117,10 +131,17 @@
 
     <hr />
 
-    <a href="">About me</a> | <a href="">Contact me</a> | <a href="">Portfolio</a>
+    <!-- <a href="">About me</a> | <a href="">Contact me</a> | <a href="">Portfolio</a> -->
+    <!--<a href="#">Favorites</a>-->
 
     <footer>
-      <p>Copyright &copy; 2024 Brian T. Gil.</p>
+      <p>Copyright &copy; <span id="cp"></span> Brian T. Gil.</p>
     </footer>
+
+    <script>
+      document.getElementById('cp').innerText = (new Date).getFullYear();
+    </script>
+
   </body>
 </html>
+
